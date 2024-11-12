@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#game-container {
+	background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 800px;
+  height: 650px;
+}
+
+#color-to-click {
+	font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#squares {
+	display: grid;
+  grid-template-columns: repeat(2, 250px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.square {
+	height: 250px;
+  width: 250px;
+  cursor: pointer;
+}
+
+#red {
+	background-color: red;
+}
+
+#green {
+	background-color: green;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#orange {
+	background-color: rgb(255, 153, 0);
+}
+
+#result {
+	margin-top: 20px;
+  font-size: 18px;
+}
